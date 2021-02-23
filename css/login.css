@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background: url(../img/bankImage.jpg) no-repeat ;
+background-size: cover;
+}
+
+.box{
+    width: 300px;
+    height: 350px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background: rgba(0,0,0,0.7);
+    
+}
+
+.box h3 {
+    /* float: left; */
+    font-size: 40px;
+    /* border-bottom: 2px solid white; */
+    margin-bottom: 50px;
+    padding: 13px 0;
+    text-align: center;
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 20px 0;
+    border-bottom: 1px solid white;
+}
+
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    color: white;
+    background: none;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+    padding-left: 5px;
+}
+
+.btn{
+    width: 40%;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 30%;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.btn:hover{
+box-shadow: 8px 8px 100px  #ffffff;
+border-radius: 25px;
+}

@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background: url(../img/main.jpg) no-repeat ;
+background-size: cover;
+font-family: sans-serif;
+}
+
+.white{
+    color: white;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------ */
+
+
+
+.header{
+    overflow: auto;
+    background-color: #263238;
+    height:70px;
+}
+
+.text{
+    /* border: 1px solid red; */
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.logout{
+    /* border: 1px solid green; */
+    display: inline-block;
+    float: right;
+    margin: 5px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.logout h1{
+    display: inline-block;
+}
+
+
+
+/* ----------------------------------------------------------------------------- */
+.button {
+    display: block;
+}
+
+
+.deposit{
+    /* border: 1px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 45px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.7);
+    color: white;
+    height: 300px;
+    width: 260px;
+} 
+
+.deposit .heading{
+    margin: 20px 0 0 75px;
+}
+.deposit .button{
+    margin: 30px 0 0 70px;
+}
+
+.checkBalance{
+    /* border: 1px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 250px;
+    left: 380px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.7);
+    color: white;
+    height: 300px;
+    width: 260px;
+} 
+
+.checkBalance .heading{
+    margin: 45px 0 0 45px;
+}
+
+.checkBalance .button{
+    margin: 45px 0 0 75px;
+}
+.withdraw{
+    /* border: 1px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 720px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.7);
+    color: white;
+    height: 300px;
+    width: 260px;
+}
+
+.withdraw .heading{
+    margin: 25px 0 0 70px;
+}
+
+.withdraw .button{
+    margin: 30px 0 0 70px;
+}
+
+
+.transfer{
+    /* border: 1px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 250px;
+    left: 1060px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.7);
+    color: white;
+    width: 260px;
+    height: 300px;
+}
+.transfer .heading{
+    margin: 25px 0 0 80px;
+}
+
+.transfer .button{
+    margin: 30px 0 0 75px;
+}
+
+
+
+.icon{
+    margin: 30px 0 0 100px;
+}
+
+.input{
+    border: none;
+    outline: none;
+    color: white;
+    background: none;
+    font-size: 18px;
+    text-align: center;
+    margin: 25px 0 0 15px;
+}
+
+
+
+.button{
+    width: 40%;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button:hover{
+    box-shadow: 8px 8px 100px  #ffffff;
+    border-radius: 25px;
+    }
